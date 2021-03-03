@@ -19,11 +19,11 @@ class Main:
         file2 = "https://icculus.org/twilight/darkplaces/files/rygel-dp-texturepack-ultra.pk3"
 
         print("Downloading file1")
-        localFile1 = os.path.join(self.dataDir, os.path.dirname(file1))
+        localFile1 = os.path.join(self.dataDir, "rygel-dp-texturepack-high.pk3")
         Util.wgetDownload(file1, localFile1)
 
         print("Downloading file2")
-        localFile2 = os.path.join(self.dataDir, os.path.dirname(file2))
+        localFile2 = os.path.join(self.dataDir, "rygel-dp-texturepack-ultra.pk3")
         Util.wgetDownload(file2, localFile2)
 
 
