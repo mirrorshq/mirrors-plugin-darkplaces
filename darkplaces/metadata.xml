@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin id="darkplaces">
-  <mirror-site id="darkplaces">
-    <name>darkplaces file mirror</name>
+  <mirror-site id="darkplaces-files">
+    <name>darkplaces files mirror</name>
     <storage type="file"/>
     <advertiser type="httpdir"/>
     <advertiser type="ftp"/>
