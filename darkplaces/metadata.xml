@@ -9,4 +9,4 @@
       <executable>update.py</executable>
     </initializer>
   </mirror-site>
-</plugin>
+</mirror-sites>
