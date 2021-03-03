@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin id="darkplaces">
+  <mirror-site id="darkplaces">
+    <name>darkplaces file mirror</name>
+    <storage type="file"/>
+    <advertiser type="httpdir"/>
+    <advertiser type="ftp"/>
+    <initializer>
+      <executable>update.py</executable>
+    </initializer>
+    <updater>
+      <executable>update.py</executable>
+      <schedule type="interval">1w</schedule>
+      <retry-after-failure type="interval">1m</retry-after-failure>
+    </updater>
+  </mirror-site>
+</plugin>
