@@ -8,10 +8,5 @@
     <initializer>
       <executable>update.py</executable>
     </initializer>
-    <updater>
-      <executable>update.py</executable>
-      <schedule type="interval">1w</schedule>
-      <retry-after-failure type="interval">1m</retry-after-failure>
-    </updater>
   </mirror-site>
 </plugin>
